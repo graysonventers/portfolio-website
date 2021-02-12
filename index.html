@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="css/grid.css">
-    
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./img/faviconSelfPhoto.png" type="image/x-icon">
     <title>Grayson Venters | Developer</title>
 </head>
 <body>
     <header>
         <nav class="nav-fixed">
+            <div class="row">
                 <ul>
                     <li class="col span-1-of-5 btn-ghost"><a href="#">Home</a></li>
                     <li class="col span-1-of-5 btn-ghost"><a href="#section-about">About</a></li>
@@ -20,6 +21,19 @@
                     <li class="col span-1-of-5 btn-ghost"><a href="#section-contact">Contact</a></li>
                     <li class="col span-1-of-5 btn-ghost"><a href="./resources/Grayson Venters Resume 2.pdf" target="_blank">Resume</a></li>
                 </ul>
+            </div>
+        </nav>
+        <nav class="nav-hamburger">
+            <a href="javascript:void(0)" class="hamburger-icon" onclick="hamburgerFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <ul id="hamburger-toggle" class="hamburger-toggle">
+                <li class="btn-ghost"><a href="#">Home</a></li>
+                <li class="btn-ghost"><a href="#section-about">About</a></li>
+                <li class="btn-ghost"><a href="#section-portfolio">Portfolio</a></li>
+                <li class="btn-ghost"><a href="#section-contact">Contact</a></li>
+                <li class="btn-ghost"><a href="./resources/Grayson Venters Resume 2.pdf" target="_blank">Resume</a></li>
+            </ul>
         </nav>
         <div class="home-text-box">
             <h1>Grayson Venters</h1>
@@ -29,18 +43,14 @@
     </header>
     <section class="section-about" id="section-about">
         <h3>About</h3>
-        <p>In March of 2020 I had already been coming to terms with the fact that my job as a Grip in the film/tv industry, which I had been doing for four years, was not the best choice for my body long term and I felt that my mind had more to offer in terms of function and creativity.</p><br>
-
-        <p>I began learning how the web works. I started with html and css and quickly moved on to Javascript fundamentals. I started at codecademy.com but switched over to Udemy courses thereafter. These courses on Javascript, React, Nodejs and the MERN stack exposed me to the high level process of coding an application from start to finish, back end to front end. I learned how to utilize technology documentation and began learning and solving leetcode.com problems while also creating my own projects that helped me to develop my JavaScript skills.</p><br>
-
-        <p>That brings us to present day where I am ready to offer my skills in a professional environment and to continue my path of learning and advancing as it is a never ending journey.</p>
-
+        <p>Thank you for taking the time to check out my website! </p><br>
+        <p>I took up coding in March of 2020 when some extra time fell into my lap. The film industry shut down that month and I had always had an interest in web development both personally and professionally. I found myself diving into everything Javascript and loving it. React.js has been my focus on the front end and I took up Node.js and Express to build the backend of my applications. Today I am ready to offer my skills in a team environment and continue my journey learning every day.</p><br>
+        <p>I currently live in Los Angeles by way of South Carolina. When I’m not in front of a computer I enjoy spending time with my partner Lillian, my cat Goose, surfing in the Pacific, playing table tennis in my garage and eating delicious, Los Angeles cuisine. </p>
         <div class="icons-language">
             <div class="row">
                 <div class="col span-1-of-3"><img src="https://img.icons8.com/color/96/000000/javascript.png"/></div>
                 <div class="col span-1-of-3"><img src="https://img.icons8.com/color/96/000000/react-native.png"/></div>
                 <div class="col span-1-of-3"><img src="https://img.icons8.com/color/96/000000/redux.png"/></div>
-                
             </div>
             <div class="row">
                 <div class="col span-1-of-3"><img src="https://img.icons8.com/color/96/000000/nodejs.png"/></div>
@@ -53,7 +63,6 @@
             </div>
         </div>
     </section>
-
     <section class="section-portfolio" id="section-portfolio">
         <div class="projects">
             <h2>Portfolio Projects</h2>
@@ -96,36 +105,26 @@
             </div>
         </div>
     </section>
-
     <section class="section-contact" id="section-contact">
-
         <div class="content-box">
             <div class="email-icon">
                 <img src="https://img.icons8.com/material-sharp/24/000000/important-mail.png"/>
             </div>
-            <h2 class="email"> GraysonVenters@gmail.com</h2>
-    
+            <h6 class="email"> GraysonVenters@gmail.com</h6>
             <div class="phone-icon">
                 <img src="https://img.icons8.com/android/24/000000/phone.png"/>
             </div>
-            <h2 class="phone">803-543-2914</h2>
-    
+            <h6 class="phone">803-543-2914</h6>
             <div class="icons-links">
-                <div class="linkedin-link"> <a target="_blank" href="https://www.linkedin.com/in/graysonventers/"><img src="https://img.icons8.com/android/48/000000/linkedin.png"/></a>
+                <div class="link linkedin-link"> <a target="_blank" href="https://www.linkedin.com/in/graysonventers/"><img src="https://img.icons8.com/android/48/000000/linkedin.png"/></a>
                 </div>
-                <div class="github-link"> <a target="_blank" href="https://github.com/graysonventers"><img src="https://img.icons8.com/material-sharp/48/000000/github.png"/></a>
-                    
+                <div class="link github-link"> <a target="_blank" href="https://github.com/graysonventers"><img src="https://img.icons8.com/material-sharp/48/000000/github.png"/></a>
                 </div>
-                <div class="instagram-link"> <a target="_blank" href="https://www.instagram.com/graysonventers/"><img src="https://img.icons8.com/material-rounded/48/000000/instagram-new.png"/></a>
-                    
+                <div class="link instagram-link"> <a target="_blank" href="https://www.instagram.com/graysonventers/"><img src="https://img.icons8.com/material-rounded/48/000000/instagram-new.png"/></a>
                 </div>
             </div>
         </div>
-
-
-    </section>
-
-    
+    </section>   
     <script src="script.js"></script>
 </body>
 </html>
