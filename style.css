@@ -10,6 +10,7 @@ Basic Setup
 
 body {
     width: 100%;
+    min-height: 100%;
 }
 
 html {
@@ -321,5 +322,9 @@ a:visited {
 
     .section-contact {
         font-size: 100%;
+    }
+
+    .section-about p {
+        font-size: 80%;
     }
   } 
