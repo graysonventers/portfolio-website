@@ -301,8 +301,8 @@ a:visited {
         display: flex;
         background-color: transparent;
         justify-content: center;
+        padding-top: 30px;
         padding-bottom: 30px;
-        font-size: .80em;
     }
 
     .hamburger-toggle {
