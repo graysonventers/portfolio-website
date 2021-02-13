@@ -1,5 +1,5 @@
 const hamburgerToggle = document.querySelector('.hamburger-toggle');
-const hamburgerIcon = document.querySelector('.hamburger-icon');
+const backToTopBtn = document.querySelector('.back-to-top-btn');
 
 function hamburgerFunction () {
     
@@ -9,3 +9,19 @@ function hamburgerFunction () {
         hamburgerToggle.style.display = 'none'
     }
 };
+
+function backToTopFunction () {
+    document.body.scrollTop = 0; // safari
+    document.documentElement.scrollTop = 0; // Chrome Firefox IE Opera
+    window.location = '#';
+};
+
+function backToTopShowBtn () {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        backToTopBtn.style.display = 'block';
+    } else {
+        backToTopBtn.style.display = 'none';
+    }
+};
+
+window.onscroll = function () {backToTopShowBtn()};
