@@ -17,6 +17,7 @@ html, body {
     font-weight: 300;
     font-size: 25px;
     text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
 }
 
 section {
@@ -305,6 +306,7 @@ a:visited {
         justify-content: center;
         padding-top: 30px;
         padding-bottom: 30px;
+        height: .1px !important;
     }
 
     .hamburger-toggle {
