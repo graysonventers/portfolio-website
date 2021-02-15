@@ -18,6 +18,7 @@ html, body {
     font-size: 25px;
     text-rendering: optimizeLegibility;
     scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
 
 section {
@@ -378,13 +379,4 @@ a[href^=tel] {
         border-radius: 10px;
         font-size: 50%;
     }
-
-    html {
-        -webkit-overflow-scrolling: touch;
-    } 
-
-  /* @media screen and (prefers-reduced-motion: no-preference) {
-    html {
-      scroll-behavior: smooth;
-    }
-  } */
+}
