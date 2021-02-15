@@ -17,8 +17,12 @@ function backToTopFunction () {
 };
 
 function backToTopShowBtn () {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        backToTopBtn.style.display = 'block';
+    if (window.matchMedia("(max-width: 500px)").matches) {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            backToTopBtn.style.display = 'block';
+        } else {
+            backToTopBtn.style.display = 'none';
+        }
     } else {
         backToTopBtn.style.display = 'none';
     }

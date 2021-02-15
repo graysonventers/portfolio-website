@@ -266,6 +266,12 @@ a:visited {
   padding: 20px 20px;
 }
 
+/* Mobile / safari phone number styling disable */
+a[href^=tel] {
+    text-decoration:inherit;
+    color: inherit;
+ }
+
 /* Media */
 
 @media only screen and (min-width: 500px) {
