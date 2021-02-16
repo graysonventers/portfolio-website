@@ -203,7 +203,6 @@ a:visited {
 }
 
 .project-box {
-    height: 100%;
     background-color: #fff;
     color: #555;
     border-radius: 5px;
@@ -217,13 +216,13 @@ a:visited {
 }
 
 .project-box div {
-    
+   
     padding: 10px 15px 10px 15px;
     border: 1px solid #e8e8e8;
 }
 
 .project-description {
-    font-size: 100%;
+    font-size: 75%;
     margin-bottom: 5px;
 }
 
@@ -239,14 +238,11 @@ a:visited {
     padding-bottom: 15px;
 }
 
-.project-description {
-    font-size: 75%;
-}
-
 .project-box p {
     height: 100%;
     width: 100%;
     padding-bottom: 5%;
+    
 }
 
 .project-box img {
