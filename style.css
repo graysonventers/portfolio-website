@@ -184,29 +184,32 @@ a:visited {
     background-color: #f4f4f4;
 }
 
+.project-box-section {
+    display: flex;
+}
+
 .section-portfolio a {
     color: #555;
+    opacity: 80%;
     font-size: 100%;
     font-weight: 400;
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding-bottom: 5%;
 }
 
 .section-portfolio a:hover {
     color: rgb(175, 171, 171);
-    font-size: 100%;
-    font-weight: 400;
-    display: block;
-    text-align: center;
-    padding-bottom: 5%;
 }
 
 .project-box {
+    flex: 1;
     background-color: #fff;
     color: #555;
     border-radius: 5px;
-    margin: 2% 0;
+    margin: 2% 2%;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #e8e8e8;
 }
 
 .info-paragraph {
@@ -215,45 +218,34 @@ a:visited {
     padding-bottom: 5%;
 }
 
-.project-box div {
-   
-    padding: 10px 15px 10px 15px;
-    border: 1px solid #e8e8e8;
+.project-box h3 {
+    color: #555;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 5%;
+    text-align: center;
 }
 
 .project-description {
     font-size: 75%;
-    margin-bottom: 5px;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 
 .project-box ul {
     list-style: none;
-}
-
-.project-box ul li {
-    padding: 5px 0;
-}
-
-.project-box h3 {
-    padding-bottom: 15px;
-}
-
-.project-box p {
-    height: 100%;
-    width: 100%;
-    padding-bottom: 5%;
-    
+    padding-top: 5%;
 }
 
 .project-box img {
     height:  90%;
     width: 100%;
-    border: 1px solid #e8e8e8;
+    border: 1px solid #a8a8a8;
 }
 
 .projects h2 {
     color: #555;
-    font-size: 250%;
+    font-size: 150%;
     font-weight: 300; 
     text-align: center;
 }
@@ -287,6 +279,13 @@ a[href^=tel] {
 @media only screen and (min-width: 500px) {
     .nav-hamburger {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .project-box-section {
+        flex-direction: column;
+        align-content: center;
     }
 }
 
