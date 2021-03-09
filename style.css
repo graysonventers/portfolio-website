@@ -31,7 +31,7 @@ Header and Home Text
 
 header {
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/background-copy-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
