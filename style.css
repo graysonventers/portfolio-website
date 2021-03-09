@@ -225,6 +225,12 @@ a:visited {
     border: 1px solid #e8e8e8;
 }
 
+
+
+.technologies-box {
+    margin: 10% 0;
+}
+
 .info-paragraph {
     text-align: center;
     font-size: 18px;
@@ -241,8 +247,7 @@ a:visited {
 
 .project-description {
     font-size: 75%;
-    padding-bottom: 5%;
-    padding-top: 5%;
+    margin: 5% 0;
 }
 
 .project-box ul {
@@ -262,6 +267,7 @@ a:visited {
     font-weight: 300; 
     text-align: center;
 }
+
 
 /* Contact Section */
 
