@@ -30,12 +30,11 @@ Header and Home Text
 */
 
 header {
-
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/background-copy-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 100%;
+    height: 100vh;
     padding-top: 2%;
 }
 
@@ -331,6 +330,12 @@ a[href^=tel] {
         background: none;
     }
 
+    .hamburger-toggle li {
+        display: flex;
+        justify-content: center;
+        margin: 10vh 0;
+    }
+
     .nav-fixed {
       display: none;
     }
@@ -340,7 +345,7 @@ a[href^=tel] {
         box-shadow: none;
         background-color: transparent;
         justify-content: center;
-        padding-top: 30px;
+        padding-top: 20px;
         padding-bottom: 30px;
         height: .1px !important;
     }
@@ -368,14 +373,22 @@ a[href^=tel] {
 
     header h1 {
         color: #fff;
-        font-size: 200%;
+        font-size: 150%;
         font-weight: 200;
         margin-bottom: 10%;
-        margin-top: 5%;
+        margin-top: 1%;
     }
 
     header h2 {
         font-size: 100%;
+    }
+
+    header h3 {
+        color: #fff;
+        font-size: 100%;
+        font-weight: 200;
+        word-spacing: 20px;
+        margin-bottom: 10%;
     }
 
     .back-to-top-btn {

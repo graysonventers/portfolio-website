@@ -1,12 +1,15 @@
 const hamburgerToggle = document.querySelector('.hamburger-toggle');
 const backToTopBtn = document.querySelector('.back-to-top-btn');
+const homeTextBox = document.querySelector('.home-text-box')
 
 function hamburgerFunction () {
     
     if (hamburgerToggle.style.display === 'none') {
         hamburgerToggle.style.display = 'block';
+        homeTextBox.style.display = 'none';
     } else {
-        hamburgerToggle.style.display = 'none'
+        hamburgerToggle.style.display = 'none';
+        homeTextBox.style.display = 'block';
     }
 };
 
